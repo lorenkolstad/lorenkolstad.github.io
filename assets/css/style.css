@@ -53,6 +53,12 @@ header {
     .sidenav a {font-size: 18px;}
   }
 
+  .clearfix::after {
+	content:"body";
+	display: block;
+	clear: both;
+    }
+    
   .about {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -120,11 +126,10 @@ image {
 #right {
     float:right;
 }
-.clearfix::after {
-	content:"";
-	display: block;
-	clear: both;
-    }
+
+footer {
+    display: block;
+  }
     
 /* 
 font-family: 'Open Sans Condensed', sans-serif;
