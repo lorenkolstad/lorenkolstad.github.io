@@ -184,3 +184,23 @@ footer {
   border: 1px solid white;
 }
 */
+/*
+Pseudo Classes!
+a {
+    font-size: 18px;
+}
+
+Look into so many more ways pseudo classes can enhance the user interface.
+a:hover {
+    background-color: pink;
+}
+a:focus {
+    background-color: red;
+}
+a:active {
+    background-color: black;
+}
+a:visited {
+    background-color: purple;
+}
+*/
