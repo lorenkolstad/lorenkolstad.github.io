@@ -1,9 +1,10 @@
 * {
     text-align: center;
+    list-style-position: inside;
 }
 
 header {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     padding: 5px;
     margin-bottom: 10px;
     color: #333;
@@ -19,6 +20,7 @@ div {
     padding: 10px;
     margin-bottom: 20px;
     color: #333;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 test {
@@ -31,6 +33,7 @@ test {
     position: fixed;
     color: #333;
     float: left;
+    font-family: 'Open Sans Condensed', sans-serif;
 
 }
 
@@ -53,7 +56,7 @@ test {
     line-height: 1.47059;
     font-weight: 400;
     letter-spacing: -.022em;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     background-color: #ffffff;
     color: #777777
     text-align: center;
