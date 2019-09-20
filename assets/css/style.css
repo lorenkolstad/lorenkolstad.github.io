@@ -1,6 +1,7 @@
 * {
   font-family: 'Cinzel', serif;
   text-decoration: none;
+  font-weight: 800;
 }
 
 .container {
@@ -12,13 +13,44 @@ header {
   font-family: 'Cinzel', serif;
   margin-bottom: 10px;
   color: black;
-  background: rgb(190,83,11)
+  background: rgba(190,83,11,.5);
+
 }
 
+body {
+  background-image: url(../images/jtflowers.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  list-style-position: inside;
+  font-family: 'Cinzel', serif;
+  font-weight: 800;
+}
+
+.box {
+  position: relative;
+  max-width: 600px;
+  padding: 50px;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  margin-top: 10px;
+  margin-left: 375px;
+  margin-bottom: 10px;
+  margin-right: 200px;
+  
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 800;
+}
 h1 {
   float: left;
-  padding: 10px 0;
-
+  padding: 10px 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
 }
 
 header::after {
@@ -35,29 +67,45 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 nav li {
   display: inline-block;
   margin-left: 70px;
   padding-top: 23px;
+
+  position: relative;
 }
 
 nav a {
   color: #444;
   text-decoration: none;
+  text-transform: uppercase;
+}
+nav a:hover {
+  color: black;
 }
 
-body {
-  background-image: url(../images/jtflowers.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
-  list-style-position: inside;
-  font-family: 'Cinzel', serif;
-  font-weight: bold;
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
 }
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
 
 #image {
   border-style: solid;
@@ -71,5 +119,20 @@ body {
   text-align: center;
   margin-bottom: 10px;
   color: black;
-  background: rgb(190,83,11)
+  background: rgba(190,83,11,.5);
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer a:link{
+  color: black;
+}
+
+footer li a:hover{
+  color: rgba(255,255,255,.5);
+  transition: all ease-in-out 250ms;
 }
