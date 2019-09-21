@@ -141,3 +141,37 @@ form {
   text-align: center;
 }
 
+.box1 {
+  position: relative;
+  max-width: 600px;
+  height: 750px;
+  padding: 50px;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  margin-top: 10px;
+  margin-left: 375px;
+  margin-bottom: 10px;
+  margin-right: 200px;
+}
+
+.image {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #333;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.port1 {
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+
+.hangman {
+  position: relative;
+  bottom: 8px;
+  left: 16px;
+}
