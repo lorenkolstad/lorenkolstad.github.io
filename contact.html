@@ -27,21 +27,41 @@
   </header>
 
   <section>
+    <div class="box2">
+      <form action="action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Name:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="name" name="name" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Email:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="email" name="email" placeholder="Your email..">
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-25">
+            <label for="message">Message:</label>
+          </div>
+          <div class="col-75">
+            <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
+          </div>
+        </div>
 
-    <div class="box">
-      
-        <form>
-            First name:<br>
-            <input type="text1" name="firstname"><br>
-            Last name:<br>
-            <input type="text2" name="lastname"><br>
-            Email:<br>
-            <input type="text3" name="email"><br>
-            Message:<br>
-            <input type="text4" name="message"><br>
-        </form>
-
+        <div class="row">
+          <form method="post" action="mailto:lorenkolstad@gmail.com" >
+          <input type="submit" value="Send Email" /> </form>
+        </div>
+      </form>
     </div>
+
   </section>
 
 
