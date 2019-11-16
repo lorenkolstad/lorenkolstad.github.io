@@ -199,3 +199,18 @@ a:visited {
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
     -->
 */
+
+body {
+  background-image: url(../images/jtflowers.jpg);
+  background-size: cover, auto, auto;
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  list-style-position: inside;
+  font-family: 'Cinzel', serif;
+  font-weight: 800;
+}
